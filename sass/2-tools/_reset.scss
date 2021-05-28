@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus,
+*:hover {
+  outline: none;
+}
+
+html body {
+  min-height: 100vh;
+  width: 100%;
+  font-family: 'Londrina Solid', cursive;
+  font-weight: 300;
+}

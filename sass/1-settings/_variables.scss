@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400&display=swap');
+
+$font: 'Londrina Solid', cursive;
+/* Colors */
+$white: #fff;
+$pulple: #f3adc8;
+$gray-light: #f0f0f0;
+$blue: #114eab;
+$blue-light: #088cc0;
+$red: #f27f81;
+$black: #232323;
+
+$primary-color: $pulple;
+$secondary-color: $blue;
+
+/* Media */
+$breakpoint-xs: 360px;
+$breakpoint-sm: 767px;
+$breakpoint-md: 1023px;
+$breakpoint-lg: 1360px;

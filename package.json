@@ -1,0 +1,23 @@
+{
+  "name": "sassbase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "node-sass sass/main.scss ./src/style.css",
+    "watch:scss": "nodemon -e scss -x node-sass sass/main.scss ./src/style.css",
+    "uncss": "uncss -u uncss.json \".src/**.html\" > ./src/style.un.css",
+    "purgue:css": "purgecss --css ./src/style.css --content ./src/index.html  --output ./src/pstyle.css ",
+    "start": "live-server ./src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7",
+    "purgecss": "^4.0.3",
+    "uncss": "^0.17.3"
+  }
+}
